@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pygeostat = "*"
 
 [packages]
 numpy = "*"
@@ -22,6 +23,13 @@ mapclassify = "*"
 ipywidgets = "*"
 jupyterlab = "*"
 folium = "*"
+geometron = "*"
+pyvista = "*"
+pyvistaqt = "*"
+wellpathpy = "*"
+pyqt5-sip = "==12.7.0"
+pyqt5 = "==5.14.1"
+tqdm = "*"
 
 [requires]
 python_version = "3.8"
